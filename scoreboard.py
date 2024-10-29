@@ -1,6 +1,6 @@
 import pygame.font
 from pygame.sprite import Group
-from ship import Ship
+from einstein import Ship
 class Scoreboard():
 	""" a class to report scoring information """
 

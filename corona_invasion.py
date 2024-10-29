@@ -4,8 +4,8 @@ import pygame
 # A Group class to help group the bullets
 from pygame.sprite import Group
 from settings import Settings
-from ship import Ship
-from ufo import Ufo
+from einstein import Ship
+from coronav import Ufo
 import game_functions as gf
 from game_stats import Gamestats, Gameover
 from time import sleep
@@ -54,7 +54,7 @@ def run_game():
 			self.rect = self.image.get_rect()
 			self.rect.left, self.rect.top = location
 
-	background = Backround('images/background.bmp', [0,0])
+	background = Backround('assets/images/covid19.bmp', [0,0])
 
 	screen.fill([255, 255, 255])
 	screen.blit(background.image, background.rect)

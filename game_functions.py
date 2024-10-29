@@ -1,8 +1,8 @@
 # game functions file for functions in the game  to reduce the longetivity of the game and make it easy to debug
 import sys
 import pygame
-from bullet import Bullet
-from ufo import Ufo
+from vaccine import Bullet
+from coronav import Ufo
 from time import sleep
 from button import Button
 # from gameover import Gameover

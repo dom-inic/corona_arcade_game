@@ -28,7 +28,7 @@ class Gameover():
 		self.screen = screen
 
 		# load the skeleton image and get its rect.
-		self.image = pygame.image.load('images/gameover.bmp')
+		self.image = pygame.image.load('assets/images/covid50.bmp')
 		self.rect = self.image.get_rect()
 		self.screen_rect = screen.get_rect()
 
